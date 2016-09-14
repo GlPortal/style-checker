@@ -1,0 +1,4 @@
+vera++:
+  build: ./image/
+  volumes:
+    - /home:/home
