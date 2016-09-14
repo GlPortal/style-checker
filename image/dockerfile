@@ -1,0 +1,4 @@
+FROM debian:stable
+RUN apt-get install vera++
+RUN apt-get clean
+ENTRYPOINT vera++
